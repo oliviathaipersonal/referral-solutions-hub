@@ -59,7 +59,7 @@
     .event-facts dd{display:inline;margin:0;overflow-wrap:anywhere}
     .event-description{line-height:1.7;color:#4f4f52;overflow-wrap:anywhere}
     @media(max-width:1023px){.mobile-nav{display:none}.mobile-nav.open{display:flex}}
-    @media(max-width:639px){.path-session .action,.path-card .action,.path-resources .action{width:100%}.canva-image[data-template-id="chapter-group-photo"]{clip-path:inset(50px 0 0 0)!important;object-position:center 42%}}
+    @media(max-width:639px){.path-session .action,.path-card .action,.path-resources .action{width:100%}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
   </style>
   <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
@@ -82,7 +82,9 @@
    </header>
    <main>
     <section class="w-full max-w-7xl mx-auto px-5 sm:px-8 pt-6 sm:pt-8 pb-8 sm:pb-10" aria-label="Our chapter">
-     <img data-template-id="chapter-group-photo" loading="lazy" class="canva-image w-full h-[22rem] sm:h-[30rem] object-cover object-[center_42%] sm:object-center rounded-2xl bg-[#f7f5f2]" style="clip-path:inset(125px 0 0 0)" src="72d857b6-4c93-4c9e-9d21-248e72d6c563.jpeg" alt="Referral Solutions chapter group photo at a gathering">
+     <div class="w-full overflow-hidden rounded-2xl bg-[#f7f5f2]">
+      <img data-template-id="chapter-group-photo" loading="lazy" class="canva-image block w-full h-auto" style="margin-top:-4.1%" src="72d857b6-4c93-4c9e-9d21-248e72d6c563.jpeg" alt="Referral Solutions chapter group photo at a gathering">
+     </div>
     </section>
     <section class="w-full max-w-7xl mx-auto px-5 sm:px-8 pb-8 sm:pb-10" aria-label="Meeting details">
      <aside data-template-id="visitor-details-card" class="canva-panel outline-card p-7 sm:p-8" style="background: rgb(255, 255, 255);">
