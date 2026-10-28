@@ -1,6 +1,6 @@
 # Referral Solutions Hub
 
-Member hub for BNI Referral Solutions (Pasadena): meeting details, chapter calendar, power teams, networking ribbons, new-member onboarding, the 2026 4-Star Networker path, quick access links, and a BNI cheat sheet.
+Member hub for BNI Referral Solutions (Pasadena): meeting details, chapter calendar, power teams, chapter roster with one-click "email the whole chapter", networking ribbons, new-member onboarding, the 2026 4-Star Networker path, quick access links, and a BNI cheat sheet.
 
 ## Files
 
